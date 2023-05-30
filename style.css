@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    height: 10vh;
+    padding: 0 20px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+.nav:active {
+    text-decoration: underline;
+  }
+  
+
+  .welcome {
+    background: rgb(226, 221, 221);
+    text-align: center;
+    padding: 40px;
+  }
+
+  .welcome h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .welcome p {
+    font-size: 20px;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+  
+  .languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  .language-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    animation: flow 16s linear infinite;
+  }
+
+  .language-item {
+    margin: 0 10px;
+  }
+
+  .languages h2 {
+    text-align: center;
+  }
+
+  @keyframes flow {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .about-me {
+    text-align: center;
+    padding: 50px;
+    background: rgb(226, 221, 221);
+  }
+
+  .about-me h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .about-me p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+
+  .about-me .profile-image{
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   }
+  hr {
+    height: 2px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    border: none;
+    margin: 20px 0;
+  }
+
+  .contact-section {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
